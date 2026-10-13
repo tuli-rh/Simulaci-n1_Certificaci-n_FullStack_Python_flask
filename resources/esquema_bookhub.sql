@@ -34,3 +34,4 @@ CREATE TABLE IF NOT EXISTS favoritos (
   FOREIGN KEY (usuario_id) REFERENCES usuarios (id) ON DELETE CASCADE,
   FOREIGN KEY (libro_id) REFERENCES libros (id) ON DELETE CASCADE
 );
+
